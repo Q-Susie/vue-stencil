@@ -21,6 +21,7 @@ Vue.config.productionTip = false
 Vue.prototype.$get = get;
 Vue.prototype.$post = post;
 
+console.log('9966')
 
 new Vue({
   	el: '#app',

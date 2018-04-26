@@ -24,28 +24,30 @@ export default {
       }
     },
     login() {
-      var ajaxData = {
-        phone: this.phone,
-        password: this.password
-      }
+      this.$store.dispatch('login', true)
+      console.log(this.$store.state.isLogin, 'login')
+      // var ajaxData = {
+      //   phone: this.phone,
+      //   password: this.password
+      // }
 
-      if(!ajaxData.phone){
-        this.$message.error('手机号码不能空');
-        return
-      } else if(!ajaxData.password){
-        this.$message.error('密码不能空');
-        return
-      }
+      // if(!ajaxData.phone){
+      //   this.$message.error('手机号码不能空');
+      //   return
+      // } else if(!ajaxData.password){
+      //   this.$message.error('密码不能空');
+      //   return
+      // }
 
-      this.$post('/v2_0/api/login', ajaxData)
-        .then(res => {  
-            console.log("获取信息成功");  
-            console.log(res);  
-        })
-        .catch(err =>{
-          console.log("获取信息失败");  
-          console.log(err);  
-        })  
+      // this.$post('/v2_0/api/login', ajaxData)
+      //   .then(res => {  
+      //       console.log("获取信息成功");  
+      //       console.log(res);  
+      //   })
+      //   .catch(err =>{
+      //     console.log("获取信息失败");  
+      //     console.log(err);  
+      //   })  
     }
   },
   watch: {    

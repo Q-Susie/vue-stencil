@@ -2,7 +2,7 @@
 
 <template>
   <section id="login">
-    
+    <router-link to="/">首页</router-link>
     <section class="login-bg">
       <div class="container">
         <div class="loging">
