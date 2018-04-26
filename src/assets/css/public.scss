@@ -1,0 +1,66 @@
+$fontSize-36: 36px;
+$fontSize-30: 30px;
+$fontSize-24: 24px;
+$fontSize-18: 18px;
+$fontSize-16: 16px;
+$fontSize-14: 14px;
+$fontSize-12: 12px;
+
+$white:#fff;
+$black:#000; 
+
+$gray-1:#eee; 
+$gray-2:#7f7f7f;
+$gray-3:#bdbdbd;
+$gray-4:#fbfbfb;
+$gray-5:#dee5ea;
+$gray-6:#f7f7f7;
+
+$yellow:#c3a567;
+
+$pd-10:10px;
+$pd-20:20px;
+$pd-30:30px;
+$pd-40:40px;
+$pd-50:50px;
+$pd-70:70px;
+
+
+$txt-center:center;
+$txt-right:right;
+
+.pd-30{
+	padding: $pd-30 0;
+}
+.pd-40{
+	padding: $pd-40;
+}
+
+.title{
+	text-align: $txt-center;
+	padding: $pd-30;
+	font-size: $fontSize-36;
+	font-weight: bold;
+	position: relative;
+	.line{
+		height: 4px;
+		background: $yellow;
+		width: 100px;
+		margin: auto;
+		margin-top:$pd-10; 
+	}
+	i{
+		font-size: $fontSize-24;
+	}
+}
+
+@media (min-width: 320px) and (max-width:640px){
+    .title{
+    	font-size: $fontSize-24;
+    	padding: $pd-20 0;
+    }
+    .pd-40{
+		padding: 20px !important;
+	}
+
+  }

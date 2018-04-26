@@ -1,0 +1,77 @@
+*html{
+    font-size: 62.5%;
+}
+body{
+    height: auto;
+    font-family:12px/140% Arial,"宋体",Helvetica, sans-serif,Verdana;
+    margin:0 auto;
+    padding:0;
+    overflow-x: hidden;
+}
+hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td,iframe,figure,label,b ,strong{
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    font-size :100% ;
+}
+button, input, select, textarea {
+    font-size:100%;
+}
+table{
+    border-collapse:collapse;
+    border-spacing:0;
+}
+ol,ul,li,img,menu,dir{
+    border: 0;
+    list-style: none;
+    padding: 0;
+}
+i,em,b,strong{
+    font-style: normal;
+}
+a,a:link{
+    text-decoration: none;
+    outline: 0;
+    transition-duration: 0.5s;
+    color: #000;
+}
+ul, div, article, aside, footer, header, menu, nav, section {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box
+}
+a:hover,a:active{
+    transition-duration: 0.5s;
+    text-decoration: none;
+    color: #c3a567
+}
+:before, :after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#app {  
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+img{
+    width: auto;
+    max-width: 100%;
+    margin: auto;
+}
+button {
+    outline: 0;
+    border: 0;
+    background: transparent;
+    padding: 0;
+    width: auto;
+}
+input,textarea{
+    width: 100%;
+    border:0;
+    outline:none;
+}

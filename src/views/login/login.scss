@@ -1,0 +1,104 @@
+@import "../../assets/css/public";
+@import "../../assets/css/bases";
+
+#login{
+	.login-bg{
+		padding: 200px 0;
+		.loging{
+		    box-shadow: 0 0 15px #adadad;
+		    border-radius: 5px;
+		    padding: $pd-40;
+		    max-width: 400px;
+		    width:95%;
+		    margin: $pd-30 auto;
+		    background: $gray-4;
+		    position: relative;
+		    .log{
+			    font-size: 24px;
+			    color: #333;
+			    margin-bottom: $pd-30;
+		    }
+		    .login-switch{
+				position: absolute;
+				right:10px;
+				top:10px;
+				p{
+					float: right;
+					font-size: $fontSize-12;
+					background: $gray-4;
+					border: 1px solid $yellow;
+					padding:3px;
+					margin-right: 10px;
+					position: relative;
+					border-radius: 5px;
+					color:$gray-2;
+					&:after{
+						width: 0; 
+						height: 0; 
+						content: '';
+						border-top: 5px solid transparent; 
+						border-left: 7px solid $yellow; 
+						border-bottom: 5px solid transparent; 
+						position: absolute;
+						right:-7px;
+						top:6px;
+					}
+				}
+				i{
+					width: 50px;
+					height: 50px;
+					display: block;
+					float: right;
+					cursor: pointer;
+					&:hover{
+						opacity: 0.8;
+					}
+				}
+		    }
+		    .login-pass{
+			    li{
+			    	margin-bottom: 15px;
+				    padding: 0 8px;
+				    border: 1px solid #e3e3e3;
+				    border-radius: 15px;
+				    input {
+					    line-height: $pd-40;
+					    background: none;
+						}
+						&.login-input3 {
+					    background: $gray-4;
+					    border: 1px solid $gray-4;
+					    text-align: $txt-right;
+					    height: auto;
+					    line-height: $pd-20;
+					    margin-top: 30px;
+					    margin-bottom: 5px;
+					    color: #999;
+						}
+						&.login-input4 {
+					    background: #323232;
+					    line-height: $pd-40;
+					    color: $white;
+					    padding: 0;
+					    cursor: pointer;
+					    text-align: $txt-center;
+						}
+			    }
+		    }
+		    .login-wechat{
+					.login-code{
+						width: 150px;
+						height: 150px;
+						margin: auto;
+						margin-bottom: $pd-30;
+					}
+		    }
+		    .other{
+		    	a{
+		    		cursor: pointer;
+		    		margin-right: 10px;
+		    	}
+		    }
+		}
+	}
+}
