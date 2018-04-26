@@ -1,6 +1,6 @@
-# dekelian
+# vue-stencil
 
-> dekelian
+> vue-stencil
 
 ## Build Setup
 
